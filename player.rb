@@ -1,12 +1,9 @@
-class Player 
-  attr_accessor :name
+# frozen_string_literal: true
 
-  def initialize (name) 
-    @name = name
+class Player
+  attr_accessor :lives
+
+  def initialize
     @lives = 3
-  end
-
-  def alive?
-    live > 0
   end
 end
